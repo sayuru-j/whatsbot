@@ -1,0 +1,28 @@
+{
+  "name": "whatsbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayuru-j/whatsbot.git"
+  },
+  "author": "sayuru-j",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sayuru-j/whatsbot/issues"
+  },
+  "homepage": "https://github.com/sayuru-j/whatsbot#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "whatsapp": "^0.0.5-Alpha"
+  }
+}
